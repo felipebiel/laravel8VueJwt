@@ -1,6 +1,6 @@
-# # Laravel 5.8 + Vue SPA + Vuex + Adminlte 3 + JWT
+# # Laravel 6 + Vue SPA + Vuex + Adminlte 3 + JWT
 <p>
-Laravel na sua versão 5.8 preparado e configurado para Vue JS em SPA, Vuex, template AdminLTE 3 e JWT.
+Laravel na sua versão 6 preparado e configurado para Vue JS em SPA, Vuex, template AdminLTE 3 e JWT.
 </p>
 Baseado no curso da EspecializaTi, "Curso de Laravel com Vue JS"
 
