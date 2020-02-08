@@ -96,9 +96,9 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="{{ url('/images/logo_mult_mini.jpg') }}" alt="Mult Saúde Benefícios" class="brand-image img-circle elevation-3"
+      <img src="{{ url('/images/empresa.png') }}" alt="Mult Saúde Benefícios" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">Mult Saúde</span>
+      <span class="brand-text font-weight-light">Empresa LTDA</span>
     </a>
 
     <!-- Sidebar -->
