@@ -9,17 +9,22 @@ Baseado no curso da EspecializaTi, "Curso de Laravel com Vue JS"
 #### Instalação: 
 
 ------------
-Instalar as dependencias e pacotes:
+Instalar as dependencias e pacotes npm:
   `  npm install`
 
-Atualize as dependencias:
-`composer update`
+Baixe as dependencias do composer:
+`composer install`
 
 Gere todas as classes:
 `composer dump-autoload`
 
-Gere uma nova chave:
+Gere uma nova chave do Laravel:
 `php artisan key:generate`
+
+Gere uma nova chave do JWT:
+`php artisan jwt:secret`
+
+Copie o arquivo .env.example para .env
 
 Configure o banco e pronto! 
 
