@@ -1,6 +1,6 @@
-# # Laravel 6 + Vue SPA + Vuex + Adminlte 3 + JWT
+# # Laravel 7 + Vue SPA + Vuex + Adminlte 3 + JWT
 <p>
-Laravel na sua versão 6 preparado e configurado para Vue JS em SPA, Vuex, template AdminLTE 3 e JWT.
+Laravel na sua versão 7 preparado e configurado para Vue JS em SPA, Vuex, template AdminLTE 3 e JWT.
 </p>
 Baseado no curso da EspecializaTi, "Curso de Laravel com Vue JS"
 
@@ -18,13 +18,13 @@ Baixe as dependencias do composer:
 Gere todas as classes:
 `composer dump-autoload`
 
+Copie o arquivo .env.example para .env
+
 Gere uma nova chave do Laravel:
 `php artisan key:generate`
 
 Gere uma nova chave do JWT:
 `php artisan jwt:secret`
-
-Copie o arquivo .env.example para .env
 
 Configure o banco e pronto! 
 
