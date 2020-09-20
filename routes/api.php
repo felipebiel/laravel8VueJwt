@@ -7,6 +7,9 @@ Route::get('me_auth', 'Api\AuthCtrl@getAuthenticatedUser');
 //ATUALIZA O TOKEN DO USUARIO
 Route::post('auth-refresh', 'Api\AuthCtrl@refreshToken');
 
+//Cadastro de usuários
+Route::post('user/add', 'Api\AuthCtrl@create');
+
 
 //ROTAS PROTEGIDAS POR JWT
 

@@ -8,12 +8,15 @@ use App\Http\Controllers\Controller;
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 
+use App\User;
+
 class AuthCtrl extends Controller
 {
 
     public function __construct(){
         $this->middleware('auth:api', ['except' => [
             'authenticate',
+            'create'
         ]]);
     }
 
@@ -80,6 +83,13 @@ class AuthCtrl extends Controller
 
         return response()->json(compact('token'));
 
+    }
+
+    public function create(Request $request){
+        $u = new User($request->all());
+        $u->password = bcrypt($request->password);
+        $u->save();
+        return response()->json(['msg' => 'Criado com sucesso!', 'user'=> $u], 201);
     }
 
 }
