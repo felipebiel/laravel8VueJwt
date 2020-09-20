@@ -14,7 +14,7 @@ class AuthCtrl extends Controller
     public function __construct(){
         $this->middleware('auth:api', ['except' => [
             'authenticate',
-        ]])
+        ]]);
     }
 
     //AUTENTICA O USER E RETORNA O USER E TOKEN
